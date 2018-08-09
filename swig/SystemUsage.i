@@ -1,4 +1,4 @@
-%module hello
+%module SystemUsage
 %{
 extern int cpu_usage(void);
 extern int memory_info(void);
