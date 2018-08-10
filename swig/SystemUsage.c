@@ -10,7 +10,7 @@ int cpu_usage(void);
 int memory_info(void);
 
 void main(){
-    memory_info();
+    memory_usage();
     cpu_usage();
 
 }
@@ -48,7 +48,7 @@ int cpu_usage(void){
     return cpu_usage_data;
 }
 
-int memory_info(void){
+int memory_usage(void){
     char memory_total_name[9] = {0};
     char memory_free_name[9] = {0};
     char garv[3] = {0};
